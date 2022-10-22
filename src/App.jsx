@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path='/Page_Crud' element={<Lista/>} exact></Route>
-        <Route path='/Page_Crud/agregar' element={<Agregar/>} exact></Route>
-        <Route path='/Page_Crud/editar' element={<Editar/>} exact></Route>
+        <Route path='/Para_pasar' element={<Lista/>} exact></Route>
+        <Route path='/Para_pasar/agregar' element={<Agregar/>} exact></Route>
+        <Route path='/Para_pasar/editar' element={<Editar/>} exact></Route>
       </Routes>
       </BrowserRouter> 
       
